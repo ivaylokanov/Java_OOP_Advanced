@@ -1,4 +1,4 @@
-package pr_03_ferrari;
+package pr03_ferrari;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package pr_02_multipleImplementation;
+package pr02_multipleImplementation;
 
 public class Citizen implements Person,Birthable,Identifiable {
     private String name;

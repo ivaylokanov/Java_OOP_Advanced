@@ -1,4 +1,4 @@
-package pr_02_multipleImplementation;
+package pr02_multipleImplementation;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Class[] citizenInterfaces = pr_02_multipleImplementation.Citizen.class.getInterfaces();
+        Class[] citizenInterfaces = pr02_multipleImplementation.Citizen.class.getInterfaces();
         if (Arrays.asList(citizenInterfaces).contains(Birthable.class)
                 && Arrays.asList(citizenInterfaces).contains(Identifiable.class)) {
             Method[] methods = Birthable.class.getDeclaredMethods();
@@ -20,8 +20,8 @@ public class Main {
             int age = Integer.parseInt(scanner.nextLine());
             String id = scanner.nextLine();
             String birthdate = scanner.nextLine();
-            Identifiable identifiable = new pr_02_multipleImplementation.Citizen(name,age,id,birthdate);
-            Birthable birthable = new pr_02_multipleImplementation.Citizen(name,age,id,birthdate);
+            Identifiable identifiable = new pr02_multipleImplementation.Citizen(name,age,id,birthdate);
+            Birthable birthable = new pr02_multipleImplementation.Citizen(name,age,id,birthdate);
         }
     }
 

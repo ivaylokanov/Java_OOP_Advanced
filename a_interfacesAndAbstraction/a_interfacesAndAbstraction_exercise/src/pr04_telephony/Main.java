@@ -1,4 +1,4 @@
-package pr_04_telephony;
+package pr04_telephony;
 
 import java.io.BufferedReader;
 import java.io.IOException;

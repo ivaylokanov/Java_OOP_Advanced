@@ -1,4 +1,4 @@
-package pr_04_telephony;
+package pr04_telephony;
 
 public interface Browsable {
     String browse();

@@ -1,6 +1,4 @@
-package pr_03_ferrari;
-
-import java.sql.Driver;
+package pr03_ferrari;
 
 public class Ferrari implements Drivable {
     private String driverName;

@@ -1,4 +1,4 @@
-package pr_02_multipleImplementation;
+package pr02_multipleImplementation;
 
 public interface Person {
     String getName();
