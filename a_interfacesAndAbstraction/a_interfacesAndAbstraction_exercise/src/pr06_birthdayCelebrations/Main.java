@@ -43,10 +43,10 @@ public class Main {
         String birthDate = reader.readLine();
 
 
-        citySubject.stream().forEach((Birthable c)->{
+      /*  citySubject.stream().forEach((Birthable c)->{
             if ((Birthable)c.isBirthdate(birthDate)){
                 System.out.println((Birthable)c.getBirthdate());
             }
-        });
+        });*/
     }
 }
