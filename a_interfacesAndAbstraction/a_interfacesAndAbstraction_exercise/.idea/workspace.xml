@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a520358-5b22-4da0-9896-7e06da4b9c55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr07_foodShortage/Buyer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr07_foodShortage/Citizen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr07_foodShortage/Rebel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/CommandoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/EngineerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/LeutenantGeneralImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/MissionImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/PrivateImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/RepairImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/SoldierImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/SpecialisedSoldierImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/implementations/SpyImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/Commando.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/Engineer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/LeutenantGeneral.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/Mission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/Private.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/Repair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/Soldier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/SpecialisedSoldier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr08_militaryElite/military/elite/interfaces/Spy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr09_collectionHierarchy/AddCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr09_collectionHierarchy/AddRemoveCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr09_collectionHierarchy/IAddable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr09_collectionHierarchy/IRemovable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr09_collectionHierarchy/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr09_collectionHierarchy/MyList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr10_mooD3/Archangel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr10_mooD3/Demon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr10_mooD3/GameObjects.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pr10_mooD3/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pr06_birthdayCelebrations/Main.java" afterPath="$PROJECT_DIR$/src/pr06_birthdayCelebrations/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pr07_foodShortage/Main.java" afterPath="$PROJECT_DIR$/src/pr07_foodShortage/Main.java" />
-    </list>
+    <list default="true" id="5a520358-5b22-4da0-9896-7e06da4b9c55" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -824,7 +788,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495747773109</updated>
-      <workItem from="1495747775624" duration="22327000" />
+      <workItem from="1495747775624" duration="22923000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1495919803616</created>
@@ -837,7 +801,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22327000" />
+    <option name="totallyTimeSpent" value="22923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
