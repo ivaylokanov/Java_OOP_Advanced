@@ -10,43 +10,37 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        List<Factory> citySubject = new ArrayList<>();
+        List<Birthable> citySubject = new ArrayList<>();
         String input = "";
         while (!"End".equals(input=reader.readLine())){
             String[] inputArgs = input.split("\\s+");
             String commandArgs = inputArgs[0];
             switch (commandArgs){
                 case "Robot":
-                    String model = inputArgs[1];
-                    String id = inputArgs[2];
-                    Factory robot = new Robot(model,id);
-                    citySubject.add(robot);
-                    break;
+                   continue;
                 case "Citizen":
                     String name = inputArgs[1];
                     int age = Integer.valueOf(inputArgs[2]);
-                    id = inputArgs[3];
+                    String id = inputArgs[3];
                     String birthdate = inputArgs[4];
-                    Factory citizen = new Citizen(name,age,id,birthdate);
+                    Birthable citizen = new Citizen(name,age,id,birthdate);
                     citySubject.add(citizen);
                     break;
                 case "Pet":
                     name = inputArgs[1];
-                    birthdate = inputArgs[4];
-                    Factory pet = new Pet(name,birthdate);
+                    birthdate = inputArgs[2];
+                    Birthable pet = new Pet(name,birthdate);
                     citySubject.add(pet);
                     break;
-
             }
 
         }
         String birthDate = reader.readLine();
 
-
-      /*  citySubject.stream().forEach((Birthable c)->{
-            if ((Birthable)c.isBirthdate(birthDate)){
-                System.out.println((Birthable)c.getBirthdate());
+      citySubject.stream().forEach((c->{
+            if (c.isBirthdate(birthDate)){
+                System.out.println(c.getBirthdate());
             }
-        });*/
+        }));
     }
 }

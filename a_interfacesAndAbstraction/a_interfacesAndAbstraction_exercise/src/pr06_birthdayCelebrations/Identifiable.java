@@ -1,7 +1,7 @@
 package pr06_birthdayCelebrations;
 
 
-public interface Identifiable extends Factory{
+public interface Identifiable {
      boolean getDetained(String detainedId);
      String getId();
 

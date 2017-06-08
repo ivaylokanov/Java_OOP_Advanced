@@ -1,6 +1,6 @@
 package pr06_birthdayCelebrations;
 
-public interface Birthable extends Factory {
+public interface Birthable {
 
     boolean isBirthdate(String birthdate);
 
